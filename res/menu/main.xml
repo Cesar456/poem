@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/search"
+        />
+    <item
+        android:id="@+id/action_getRandom"
+        android:icon="@drawable/ic_shuffle_white_48dp"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/random"
+        />
+</menu>

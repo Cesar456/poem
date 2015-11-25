@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">诗词</string>
+    <string name="footer_load">正在加载…</string>
+    <string name="startpicture">开始图片</string>
+    <string name="title">标题</string>
+    <string name="author">作者</string>
+    <string name="content">内容</string>
+    <string name="classft_author">按作者</string>
+    <string name="classft_style">按风格</string><!-- 风格，感情等诗歌标签分类-->
+    <string name="classft_time">按朝代</string>
+    <string name="share_poem">分享</string>
+    <string name="save_image">保存</string>
+    <string name="lastest_poem">记录</string>
+    <string name="classfy">分类</string>
+    <string name="mine">我的</string>
+    <string name="search">搜索</string>
+    <string name="searchHint">诗歌标题/内容</string>
+    <string name="authorInfo">作者详情</string>
+    <string name="authorPoems">作者诗歌</string>
+    <string name="minePoem">我的收藏</string>
+    <string name="collect_action">收藏</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="random">随机</string>
+    <string name="setting_title_exmple">沈园</string>
+    <string name="setting_author_exmple">陆游</string>
+    <string name="setting_content_exmple">城上斜阳画角哀，沈园非复旧池台，\n伤心桥下春波绿，曾是惊鸿照影来。</string>
+    <string name="setting_font_size">字体大小</string>
+    <string name="clean_mine">清空收藏</string>
+    <string name="clean_record">清空记录</string>
+    <string name="about_give_me_money">捐钱</string>
+    <string name="about_give_me_money_text">您的支持是我最大的动力，图片长按保存</string>
+</resources>

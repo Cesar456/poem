@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/poem_collect_image"
+        android:title="@string/collect_action"
+        android:icon="@drawable/ic_action_not_important"
+        android:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:id="@+id/poem_share_sendnow_image"
+        android:title="@string/share_poem"
+        android:icon="@drawable/ic_action_share"
+        android:showAsAction="ifRoom|collapseActionView"
+        />
+
+</menu>

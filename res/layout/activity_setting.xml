@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/setting_font_size"
+        style="@style/SettingTheme"
+        android:layout_height="40sp"
+        android:text="@string/setting_font_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/setting_clean_mine"
+        style="@style/SettingTheme"
+        android:layout_height="40sp"
+        android:text="@string/clean_mine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/clean_record"
+        style="@style/SettingTheme"
+        android:layout_height="40sp"
+        android:text="@string/clean_record" />
+
+</LinearLayout>

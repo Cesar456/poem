@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_classfy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/classy_textview1"
+            android:drawableLeft="@drawable/ic_action_edit"
+            android:drawableStart="@drawable/ic_action_edit"
+            style="@style/ClassfyTheme"
+            android:text="@string/classft_author" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/classy_textview2"
+            android:drawableLeft="@drawable/ic_action_view_as_grid"
+            android:drawableStart="@drawable/ic_action_view_as_grid"
+            style="@style/ClassfyTheme"
+            android:text="@string/classft_style" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/classy_textview3"
+            android:drawableLeft="@drawable/ic_action_sort_by_size"
+            android:drawableStart="@drawable/ic_action_sort_by_size"
+            style="@style/ClassfyTheme"
+            android:text="@string/classft_time" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <ListView
+        android:id="@+id/classfy_followed"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1" >
+    </ListView>
+
+</LinearLayout>

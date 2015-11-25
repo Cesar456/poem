@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_classfy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/mine_textview1"
+        style="@style/ClassfyTheme"
+        android:drawableLeft="@drawable/ic_action_important"
+        android:drawableStart="@drawable/ic_action_important"
+        android:text="@string/minePoem" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/mine_textview2"
+        style="@style/ClassfyTheme"
+        android:drawableLeft="@drawable/ic_action_settings"
+        android:drawableStart="@drawable/ic_action_settings"
+        android:text="@string/setting" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/mine_textview3"
+        style="@style/ClassfyTheme"
+        android:drawableLeft="@drawable/ic_action_about"
+        android:drawableStart="@drawable/ic_action_about"
+        android:text="@string/about" />
+
+</LinearLayout>
